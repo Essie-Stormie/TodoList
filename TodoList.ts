@@ -1,4 +1,4 @@
-// Define the TodoItem interface
+// TodoItem interface
 interface TodoItem {
   id: number;
   task: string;
@@ -6,7 +6,7 @@ interface TodoItem {
   dueDate: Date;
 }
 
-// TodoList class implementation
+
 class TodoList {
   private todos: TodoItem[] = [];
   private nextId: number = 1;
@@ -57,7 +57,7 @@ class TodoList {
   }
 }
 
-// Example usage
+
 const myTodoList = new TodoList();
 myTodoList.addTodo("Learn TypeScript", new Date("2025-03-10"));
 myTodoList.addTodo("Build a project", new Date("2025-03-15"));
